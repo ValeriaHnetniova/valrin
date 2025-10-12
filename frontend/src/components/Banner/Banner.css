@@ -1,0 +1,11 @@
+.banner{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;/*використовується для приховування вмісту, що виходить за межі елемента.*/
+}
+
+.banner img{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
