@@ -17,6 +17,7 @@
     "format": "prettier --write .",
     "test": "jest",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "start:frontend": "cd frontend && npm run dev"
   }
 }
