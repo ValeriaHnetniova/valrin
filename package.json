@@ -13,11 +13,14 @@
   },
   "scripts": {
     "prepare": "husky",
-    "lint": "eslint src/",
+    "lint": "eslint frontend/src",
     "format": "prettier --write .",
     "test": "jest",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "start:frontend": "cd frontend && npm run dev"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.9.4"
   }
 }

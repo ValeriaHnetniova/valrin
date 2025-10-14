@@ -1,0 +1,126 @@
+.collectionSection {
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+
+.collectionSection h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.collectionSection p {
+  width: 550px;
+  font-size: 20px;
+  color: black;
+  margin: 10px auto 30px;
+  font-family: "Lato", sans-serif;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  text-decoration: none;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+}
+
+.productCard {
+  background-color: #ecebeb;
+  text-align: center;
+  transition: transform 0.3s; /*означає, що зміни, пов’язані з transform (наприклад, масштабування при наведенні), відбуватимуться поступово протягом 0.3 секунди.*/
+  width: 350px;
+}
+
+.productCard a {
+  text-decoration: none;
+}
+
+.productCard:hover {
+  transform: scale(
+    1.05
+  ); /*Значення 1.05 означає, що елемент збільшиться на 5% від свого початкового розміру.*/
+}
+
+.productCard img {
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+}
+
+.productCard h3 {
+  font-size: 18px;
+  margin: 15px 0;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+
+.slickPrev,
+.slickNext {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  font-size: 28px;
+  border-radius: 50px;
+  padding: 30px;
+  color: black;
+  background: none;
+  border: none;
+  width: auto;
+  height: auto;
+}
+
+.slickPrev:hover,
+.slickNext:hover {
+  cursor: pointer;
+  color: #555;
+}
+
+.slickPrev {
+  left: -20px;
+  transition:
+    left 0.3s ease,
+    transform 0.3s ease;
+}
+
+.slickPrev:hover {
+  left: -40px;
+}
+
+.slickNext {
+  right: -20px;
+  transition:
+    right 0.3s ease,
+    transform 0.3s ease;
+}
+
+.slickNext:hover {
+  right: -40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.viewAll {
+  display: block; /*елемент завжди починається з нового рядка і змушує наступні елементи теж починати з нового рядка.*/
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+}
+
+.viewAll:hover {
+  color: black;
+}

@@ -1,18 +1,17 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import "./Header.css"
+import styles from "./Header.module.css";
 
-function Header(){
-    return(
-        <header className="header">
-            <div className="logo">VALRIN</div>
-            <div className="nav-icons">
-                <Link to="/">HOME</Link>
-                <Link to="/login">LOG IN</Link>
-                <Link to="/about">ABOUT</Link>
-            </div>
-        </header>
-    )
+function Header() {
+  return (
+    <header className={styles.header}>
+      <div className={styles.logo}>VALRIN</div>
+      <div className={styles.navIcons}>
+        <Link to="/">HOME</Link>
+        <Link to="/login">LOG IN</Link>
+        <Link to="/about">ABOUT</Link>
+      </div>
+    </header>
+  );
 }
 
 export default Header;
