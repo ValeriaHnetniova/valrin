@@ -1,0 +1,73 @@
+.loginContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  margin: 0 auto;
+  max-width: 1350px;
+  padding-left: 200px;
+}
+
+.loginLeft,
+.loginRight {
+  width: 100%; /* Ширина кожної частини */
+}
+
+.loginRight {
+  margin-top: 18px;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.loginLeft {
+  margin-top: 100px;
+}
+
+.loginRight img {
+  height: 648px;
+  margin-bottom: 0;
+  display: block;
+}
+
+.loginTitle {
+  font-size: 50px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.formInput {
+  width: 70%;
+  padding: 17px 0;
+  border: none;
+  border-bottom: 1px solid #656565;
+  outline: none;
+  background: transparent;
+}
+
+.loginButton {
+  width: 70%;
+  margin-top: 20px;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  border: none;
+}
+
+.loginButton:hover {
+  cursor: pointer;
+}
+
+.registerLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.registerLinkContainer {
+  width: 68%;
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  background-color: white;
+}

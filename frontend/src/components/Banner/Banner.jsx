@@ -1,13 +1,11 @@
-import React from "react";
-import bannerImage from "../../assets/banner.png"
-import "./Banner.css";
+import styles from "./Banner.module.css";
 
-function Banner(){
-    return(
-        <section className="banner">
-            <img src={bannerImage} alt="Banner Image" />
-        </section>
-    )
+function Banner({ imageSrc, altText }) {
+  return (
+    <section className={styles.banner}>
+      <img src={imageSrc} alt={altText} />
+    </section>
+  );
 }
 
 export default Banner;

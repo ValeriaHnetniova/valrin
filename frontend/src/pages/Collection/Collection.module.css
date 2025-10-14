@@ -1,0 +1,55 @@
+.collectionSectionn {
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 40px;
+}
+
+.collectionSectionn h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.collectionP {
+  width: 550px;
+  font-size: 20px;
+  color: black;
+  margin: 10px auto 30px;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 50px;
+}
+
+.productGalleryy {
+  display: flex; /*режим гнучкого контейнера (flex container), що дозволяє всім його дочірнім елементам розташовуватися в одну лінію або обтікати контейнер, залежно від інших властивостей flexbox.*/
+  flex-wrap: wrap; /*Вказує, що елементи в контейнері можуть переходити на новий рядок, якщо не вистачає місця в одному ряду.*/
+  gap: 3px; /* мінімальний відступ між картками */
+  justify-content: center;
+}
+
+.productCardd {
+  box-sizing: border-box;
+  flex: 1 1 calc(25% - 3px); /* картки займають 25% ширини мінус відступ */
+  max-width: 355px; /* щоб фото не розтягувалося надто */
+  overflow: hidden;
+  text-align: left;
+  transition: transform 0.3s ease-in-out; /*означає, що зміни, пов’язані з transform (наприклад, масштабування при наведенні), відбуватимуться поступово протягом 0.3 секунди.*/
+}
+
+.productCardd:hover {
+  transform: scale(1.05);
+}
+
+.productCardd img {
+  width: 355px;
+  height: 492px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.productInfooP {
+  font-weight: lighter;
+  color: black;
+  flex: 1;
+  padding-left: 30px;
+  font-family: "Lato", sans-serif;
+}

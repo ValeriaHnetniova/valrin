@@ -1,4 +1,4 @@
-Cypress.on('uncaught:exception', (err, runnable) => {
+Cypress.on("uncaught:exception", (err, runnable) => {
   // щоб тести не падали через необроблені винятки на сайті
-  return false
-})
+  return false;
+});
