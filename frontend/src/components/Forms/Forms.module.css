@@ -1,73 +1,87 @@
 .loginContainer {
-  display: flex;
-  justify-content: space-between;
-  gap: 200px;
-  margin: 0 auto;
-  max-width: 1350px;
-  padding-left: 200px;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin: 0 0 auto auto;
+    max-width: 1350px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 250px;
+    position: relative;
+    width: 100vw;
 }
 
 .loginLeft,
 .loginRight {
-  width: 100%; /* Ширина кожної частини */
+    width: 100%;
+    /* Ширина кожної частини */
 }
 
 .loginRight {
-  margin-top: 18px;
-  margin-right: 0;
-  padding-right: 0;
+    margin-top: 18px;
+    margin-right: 0;
+    padding-right: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 70vh;
+    z-index: -1;
 }
 
 .loginLeft {
-  margin-top: 100px;
+    margin-top: 100px;
+    max-width: 500px;
 }
 
 .loginRight img {
-  height: 648px;
-  margin-bottom: 0;
-  display: block;
+    height: 648px;
+    object-fit: cover;
+    margin-bottom: 0;
+    display: block;
+    position: absolute;
+    right: 0;
 }
 
 .loginTitle {
-  font-size: 50px;
-  font-weight: 300;
-  color: #000;
-  margin-bottom: 20px;
-  font-weight: bold;
+    font-size: 50px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .formInput {
-  width: 70%;
-  padding: 17px 0;
-  border: none;
-  border-bottom: 1px solid #656565;
-  outline: none;
-  background: transparent;
+    width: 70%;
+    padding: 17px 0;
+    border: none;
+    border-bottom: 1px solid #656565;
+    outline: none;
+    background: transparent;
 }
 
 .loginButton {
-  width: 70%;
-  margin-top: 20px;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  border: none;
+    width: 70%;
+    margin-top: 20px;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    border: none;
 }
 
 .loginButton:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .registerLink {
-  text-decoration: none;
-  color: #000;
+    text-decoration: none;
+    color: #000;
 }
 
 .registerLinkContainer {
-  width: 68%;
-  border: 1px solid black;
-  text-align: center;
-  padding: 5px;
-  margin-top: 10px;
-  background-color: white;
+    width: 68%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: white;
 }
