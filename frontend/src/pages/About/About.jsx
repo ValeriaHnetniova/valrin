@@ -1,13 +1,10 @@
-import Header from "../../components/Header/Header";
 import Banner from "../../components/Banner/Banner";
 import BackButton from "../../components/Button/BackButton";
-import Footer from "../../components/Footer/Footer";
 import styles from "./About.module.css";
 
 function About() {
   return (
     <>
-      <Header />
       <Banner imageSrc="/img/banner2.png" altText="About Banner" />
       <main>
         <h1 className={styles.h1}>ABOUT US</h1>
@@ -55,7 +52,6 @@ function About() {
         </section>
       </main>
       <BackButton />
-      <Footer />
     </>
   );
 }

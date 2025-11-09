@@ -1,14 +1,11 @@
-import Header from "../components/Header/Header";
 import Forms from "../components/Forms/Forms";
-import Footer from "../components/Footer/Footer";
+import { useLogin } from "../hooks/useLogin";
 
 
 function Login() {
   return (
     <>
-      <Header />
-      <Forms />
-      <Footer noMargin />
+      <Forms useMutationHook={useLogin} />
     </>
   );
 }

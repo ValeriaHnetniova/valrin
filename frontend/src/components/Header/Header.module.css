@@ -1,12 +1,12 @@
 .header {
-  display: flex; /*дозволяє розміщувати елементи з обох боків (логотип та іконки навігації*/
+  display: flex; 
   justify-content: space-between;
   padding: 20px 40px;
   margin: 25px;
 }
 
 .navIcons {
-  display: flex; /*вирівняні по горизонталі*/
+  display: flex; 
   align-items: baseline;
   gap: 15px;
   font-size: 17px;
@@ -18,7 +18,7 @@
 }
 
 .navIcons a:visited {
-  color: black; /* Залишається чорним навіть після відвідування */
+  color: black; 
 }
 
 .navIcons a:hover {
@@ -28,11 +28,20 @@
 
 .logo {
   text-align: center;
-  transition: transform 0.4s ease; /*зміни трансформації виконувались плавно протягом 0.4 секунд.*/
+  transition: transform 0.4s ease; 
   display: inline-block; /* Щоб можна було анімувати трансформації */
   font-size: 150px;
 }
 
 .logo:hover {
   transform: translateY(-5px);
+}
+
+.logOut {
+  color: "black";
+  text-decoration: none;
+}
+
+.logOut:hover{
+  color: rgb(176, 176, 176);
 }

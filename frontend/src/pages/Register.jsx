@@ -1,11 +1,9 @@
-import Header from "../components/Header/Header";
 import Forms from "../components/Forms/Forms";
-import Footer from "../components/Footer/Footer";
+import { useRegister } from "../hooks/useRegister";
 
 function Register() {
   return (
     <>
-      <Header />
       <Forms
         type="register"
         title="REGISTER"
@@ -13,8 +11,8 @@ function Register() {
         linkText="LOG IN"
         linkPath="/login"
         imageSrc="/img/login.png"
+        useMutationHook={useRegister}
       />
-      <Footer noMargin />
     </>
   );
 }

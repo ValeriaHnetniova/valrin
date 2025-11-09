@@ -1,14 +1,11 @@
-import Header from "../../components/Header/Header";
 import Banner from "../../components/Banner/Banner";
 import Slider from "../../components/Slider/Slider";
 import { Link } from "react-router-dom";
-import Footer from "../../components/Footer/Footer";
 import styles from "./Home.module.css";
 
 function Home() {
   return (
     <>
-      <Header />
       <Banner imageSrc="/img/banner.png" altText="Home Banner" />
       <Slider />
       <main>
@@ -27,7 +24,6 @@ function Home() {
           </Link>
         </section>
       </main>
-      <Footer />
     </>
   );
 }

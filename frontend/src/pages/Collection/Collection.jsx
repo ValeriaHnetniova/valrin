@@ -1,40 +1,22 @@
-import Header from "../../components/Header/Header";
+import { useState } from 'react';
 import Banner from "../../components/Banner/Banner";
 import BackButton from "../../components/Button/BackButton";
-import Footer from "../../components/Footer/Footer";
 import styles from "./Collection.module.css";
+import { useGetCollection } from "../../hooks/useGetCollection";
+import ProductModal from '../../components/ProductModal/ProductModal';
 
 function Collection() {
-  const products = [
-    {
-      id: 1,
-      image: "/img/card1.png",
-      title: "Stellar Steps Heels",
-      price: "$390",
-    },
-    { 
-      id: 2, 
-      image: "/img/card2.png", 
-      title: "Emerald Blazer", 
-      price: "$550",
-     },
-    { 
-      id: 3, 
-      image: "/img/card3.png", 
-      title: "Allure Mask Hat", 
-      price: "$90",
-     },
-    {
-      id: 4,
-      image: "/img/card4.png",
-      title: "Crimson Gloss Heels",
-      price: "$350",
-    },
-  ];
+  
+  const { data: products, isLoading, isError, error } = useGetCollection();
+
+  const [selectedProduct, setSelectedProduct] = useState(null);
+
+  if(isLoading) return "ЗАВАНТАЖЕННЯ..."
+
+  if (isError) return "ПОМИЛКА " + error.message
 
   return (
     <>
-      <Header />
       <Banner imageSrc="/img/banner3.png" altText="Colection Banner" />
       <section className={styles.collectionSectionn}>
         <h1>CHECK OUT OUR NEW COLLECTION "PURE"</h1>
@@ -47,7 +29,7 @@ function Collection() {
         <br />
         <div className={styles.productGalleryy}>
           {products.map((product) => (
-            <div key={product.id} className={styles.productCardd}>
+            <div key={product.id} className={styles.productCardd} onClick={() => setSelectedProduct(product)}>
               <img src={product.image} alt={product.title} />
               <div>
                 <h3 className={styles.productInfooP}>{product.title}</h3>
@@ -58,7 +40,13 @@ function Collection() {
         </div>
       </section>
       <BackButton />
-      <Footer />
+
+      {selectedProduct && (
+        <ProductModal 
+          product={selectedProduct} 
+          onClose={() => setSelectedProduct(null)} 
+        />
+      )}
     </>
   );
 }

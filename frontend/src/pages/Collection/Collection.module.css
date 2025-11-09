@@ -20,19 +20,19 @@
 }
 
 .productGalleryy {
-  display: flex; /*режим гнучкого контейнера (flex container), що дозволяє всім його дочірнім елементам розташовуватися в одну лінію або обтікати контейнер, залежно від інших властивостей flexbox.*/
-  flex-wrap: wrap; /*Вказує, що елементи в контейнері можуть переходити на новий рядок, якщо не вистачає місця в одному ряду.*/
-  gap: 3px; /* мінімальний відступ між картками */
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 3px; 
   justify-content: center;
 }
 
 .productCardd {
   box-sizing: border-box;
-  flex: 1 1 calc(25% - 3px); /* картки займають 25% ширини мінус відступ */
-  max-width: 355px; /* щоб фото не розтягувалося надто */
+  flex: 1 1 calc(25% - 3px); 
+  max-width: 355px; 
   overflow: hidden;
   text-align: left;
-  transition: transform 0.3s ease-in-out; /*означає, що зміни, пов’язані з transform (наприклад, масштабування при наведенні), відбуватимуться поступово протягом 0.3 секунди.*/
+  transition: transform 0.3s ease-in-out; 
 }
 
 .productCardd:hover {
