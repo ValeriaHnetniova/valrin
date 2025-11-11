@@ -70,7 +70,7 @@ function Forms({
                             placeholder="E-mail"
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
-                            required
+                            required // не відправляє форму, поки вона пуста
                         />
                     </div>
 
