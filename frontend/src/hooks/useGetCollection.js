@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-import { db } from "../../../backend/Firebase"; 
+import { db } from '../Firebase'; 
 import { collection, getDocs } from "firebase/firestore"; 
 
 const fetchCollection = async () => {

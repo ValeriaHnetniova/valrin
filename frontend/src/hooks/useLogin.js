@@ -1,6 +1,6 @@
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { signInWithEmailAndPassword } from "firebase/auth"; 
-import { auth } from '../../../backend/Firebase'; 
+import { auth } from '../Firebase'; 
 
 
 const loginUser = async (credentials) => {

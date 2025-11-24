@@ -1,6 +1,6 @@
 import { useMutation } from '@tanstack/react-query';
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth"; 
-import { auth } from '../../../backend/Firebase'; 
+import { auth } from '../Firebase'; 
 
 
 const registerUser = async (userData) => {

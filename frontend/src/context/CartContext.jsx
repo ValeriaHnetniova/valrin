@@ -1,9 +1,9 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 import { useAuth } from './AuthContext'; 
-import { db } from '../../../backend/Firebase'; 
+import { db } from '../Firebase'; 
 import { doc, getDoc, setDoc } from 'firebase/firestore';
 
-const CartContext = createContext();
+export const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
     const { currentUser } = useAuth();
