@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1764007528257" clover="3.2.0">
-  <project timestamp="1764007528257" name="All files">
-    <metrics statements="277" coveredstatements="225" conditionals="39" coveredconditionals="22" methods="78" coveredmethods="64" elements="394" coveredelements="311" complexity="0" loc="277" ncloc="277" packages="10" files="18" classes="18"/>
+<coverage generated="1764772601120" clover="3.2.0">
+  <project timestamp="1764772601120" name="All files">
+    <metrics statements="308" coveredstatements="254" conditionals="43" coveredconditionals="24" methods="93" coveredmethods="71" elements="444" coveredelements="349" complexity="0" loc="308" ncloc="308" packages="11" files="21" classes="21"/>
     <package name="cypress.support">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <metrics statements="13" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="commands.js" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/cypress/support/commands.js">
+        <metrics statements="10" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="27" count="37" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
       <file name="component.js" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/cypress/support/component.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="23" count="66" type="stmt"/>
-        <line num="24" count="169" type="stmt"/>
-        <line num="27" count="66" type="stmt"/>
+        <line num="23" count="37" type="stmt"/>
+        <line num="24" count="90" type="stmt"/>
+        <line num="27" count="37" type="stmt"/>
       </file>
     </package>
     <package name="src">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="Firebase.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/Firebase.jsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="9" count="18" type="stmt"/>
-        <line num="19" count="18" type="stmt"/>
-        <line num="21" count="18" type="stmt"/>
-        <line num="22" count="18" type="stmt"/>
+        <line num="9" count="15" type="stmt"/>
+        <line num="19" count="15" type="stmt"/>
+        <line num="21" count="15" type="stmt"/>
+        <line num="22" count="15" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Banner">
@@ -37,33 +50,31 @@
       </file>
       <file name="Banner.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/components/Banner/Banner.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="10" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Button">
-      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
       <file name="BackButton.cy.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/components/Button/BackButton.cy.jsx">
         <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
-        <line num="4" count="8" type="stmt"/>
-        <line num="6" count="8" type="stmt"/>
-        <line num="7" count="8" type="stmt"/>
-        <line num="9" count="8" type="stmt"/>
-        <line num="14" count="8" type="stmt"/>
-        <line num="15" count="6" type="stmt"/>
-        <line num="17" count="6" type="stmt"/>
-        <line num="18" count="6" type="stmt"/>
-        <line num="21" count="6" type="stmt"/>
-        <line num="23" count="6" type="stmt"/>
-        <line num="26" count="8" type="stmt"/>
-        <line num="27" count="4" type="stmt"/>
-        <line num="29" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
       </file>
       <file name="BackButton.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/components/Button/BackButton.jsx">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="4" count="27" type="stmt"/>
-        <line num="8" count="9" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
-        <line num="14" count="4" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="9" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Footer">
@@ -89,7 +100,7 @@
       </file>
       <file name="Footer.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/components/Footer/Footer.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="5" count="22" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Forms">
@@ -146,21 +157,21 @@
       </file>
       <file name="Forms.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/components/Forms/Forms.jsx">
         <metrics statements="15" coveredstatements="15" conditionals="17" coveredconditionals="16" methods="6" coveredmethods="6"/>
-        <line num="15" count="660" type="stmt"/>
-        <line num="17" count="660" type="stmt"/>
-        <line num="18" count="660" type="stmt"/>
-        <line num="19" count="660" type="stmt"/>
-        <line num="20" count="660" type="stmt"/>
-        <line num="27" count="660" type="stmt"/>
-        <line num="30" count="660" type="stmt"/>
-        <line num="31" count="22" type="stmt"/>
-        <line num="33" count="22" type="cond" truecount="2" falsecount="0"/>
-        <line num="43" count="22" type="stmt"/>
-        <line num="46" count="660" type="stmt"/>
-        <line num="72" count="288" type="stmt"/>
-        <line num="83" count="232" type="stmt"/>
-        <line num="96" count="40" type="stmt"/>
-        <line num="106" count="60" type="stmt"/>
+        <line num="15" count="330" type="stmt"/>
+        <line num="17" count="330" type="stmt"/>
+        <line num="18" count="330" type="stmt"/>
+        <line num="19" count="330" type="stmt"/>
+        <line num="20" count="330" type="stmt"/>
+        <line num="27" count="330" type="stmt"/>
+        <line num="30" count="330" type="stmt"/>
+        <line num="31" count="11" type="stmt"/>
+        <line num="33" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="11" type="stmt"/>
+        <line num="46" count="330" type="stmt"/>
+        <line num="72" count="144" type="stmt"/>
+        <line num="83" count="116" type="stmt"/>
+        <line num="96" count="20" type="stmt"/>
+        <line num="106" count="30" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Header">
@@ -201,17 +212,17 @@
       </file>
       <file name="Header.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/components/Header/Header.jsx">
         <metrics statements="11" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
-        <line num="7" count="34" type="stmt"/>
-        <line num="8" count="34" type="stmt"/>
-        <line num="9" count="34" type="stmt"/>
-        <line num="11" count="34" type="stmt"/>
-        <line num="12" count="6" type="stmt"/>
-        <line num="13" count="6" type="stmt"/>
-        <line num="14" count="6" type="stmt"/>
-        <line num="15" count="6" type="stmt"/>
+        <line num="7" count="17" type="stmt"/>
+        <line num="8" count="17" type="stmt"/>
+        <line num="9" count="17" type="stmt"/>
+        <line num="11" count="17" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
-        <line num="21" count="34" type="stmt"/>
-        <line num="23" count="34" type="stmt"/>
+        <line num="21" count="17" type="stmt"/>
+        <line num="23" count="17" type="stmt"/>
       </file>
     </package>
     <package name="src.components.ProductModal">
@@ -252,12 +263,38 @@
       </file>
       <file name="ProductModal.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/components/ProductModal/ProductModal.jsx">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="5" count="18" type="stmt"/>
-        <line num="7" count="18" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="12" count="9" type="stmt"/>
+        <line num="14" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ProtectedRoute">
+      <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
+      <file name="ProtectedRoute.cy.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/components/ProtectedRoute/ProtectedRoute.cy.jsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="6" count="6" type="stmt"/>
         <line num="8" count="6" type="stmt"/>
         <line num="9" count="6" type="stmt"/>
-        <line num="12" count="18" type="stmt"/>
-        <line num="14" count="14" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="48" count="4" type="stmt"/>
+        <line num="50" count="4" type="stmt"/>
+      </file>
+      <file name="ProtectedRoute.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/components/ProtectedRoute/ProtectedRoute.jsx">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="7" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="8" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
       </file>
     </package>
     <package name="src.components.Slider">
@@ -285,35 +322,41 @@
       </file>
       <file name="Slider.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/components/Slider/Slider.jsx">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="6" count="10" type="stmt"/>
-        <line num="14" count="40" type="stmt"/>
-        <line num="15" count="40" type="stmt"/>
-        <line num="23" count="40" type="stmt"/>
-        <line num="24" count="40" type="stmt"/>
-        <line num="32" count="28" type="stmt"/>
-        <line num="43" count="28" type="stmt"/>
-        <line num="55" count="112" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="14" count="20" type="stmt"/>
+        <line num="15" count="20" type="stmt"/>
+        <line num="23" count="20" type="stmt"/>
+        <line num="24" count="20" type="stmt"/>
+        <line num="32" count="14" type="stmt"/>
+        <line num="43" count="14" type="stmt"/>
+        <line num="55" count="56" type="stmt"/>
       </file>
     </package>
     <package name="src.context">
-      <metrics statements="59" coveredstatements="8" conditionals="16" coveredconditionals="0" methods="16" coveredmethods="2"/>
+      <metrics statements="65" coveredstatements="21" conditionals="18" coveredconditionals="0" methods="22" coveredmethods="3"/>
       <file name="AuthContext.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/context/AuthContext.jsx">
-        <metrics statements="15" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="1"/>
-        <line num="5" count="9" type="stmt"/>
-        <line num="7" count="9" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
+        <metrics statements="21" coveredstatements="17" conditionals="4" coveredconditionals="0" methods="12" coveredmethods="2"/>
+        <line num="3" count="12" type="stmt"/>
+        <line num="5" count="12" type="stmt"/>
+        <line num="7" count="15" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
+        <line num="17" count="12" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="20" count="12" type="stmt"/>
+        <line num="21" count="12" type="stmt"/>
+        <line num="24" count="12" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
         <line num="29" count="0" type="stmt"/>
-        <line num="36" count="9" type="stmt"/>
-        <line num="37" count="17" type="stmt"/>
+        <line num="32" count="12" type="stmt"/>
+        <line num="34" count="22" type="stmt"/>
+        <line num="36" count="5" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
       </file>
       <file name="CartContext.jsx" path="C:/Users/lenovo/Documents/веб технології та дизайн/lab 1,2/frontend/src/context/CartContext.jsx">
         <metrics statements="44" coveredstatements="4" conditionals="14" coveredconditionals="0" methods="10" coveredmethods="1"/>

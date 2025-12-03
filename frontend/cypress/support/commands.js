@@ -23,3 +23,20 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('resetSession', () => {
+  // очистка звичайних сховищ
+  cy.clearAllLocalStorage();
+  cy.clearAllSessionStorage();
+  cy.clearCookies();
+
+  // видалення бази firebase 
+  cy.window().then((win) => {
+    return new Promise((resolve) => {
+      const deleteReq = win.indexedDB.deleteDatabase('firebaseLocalStorageDb');
+      deleteReq.onsuccess = resolve;
+      deleteReq.onerror = resolve;
+      deleteReq.onblocked = resolve;
+    });
+  });
+});

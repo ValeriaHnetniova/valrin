@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ProtectedRoute } from "../components/ProtectedRoute/ProtectedRoute";
 import Layout from "./Layout";
 import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
@@ -17,7 +18,13 @@ function AppRouter() {
           <Route path="collection" element={<Collection />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
-          <Route path="cart" element={<CartPage />} />
+          <Route 
+          path="cart" 
+          element={
+            <ProtectedRoute>
+              <CartPage />
+            </ProtectedRoute>
+          } />
         </Route>
       </Routes>
     </Router>
